@@ -1,0 +1,266 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+.background-container {
+    background-image: url('../photo/backg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; 
+  }
+
+  .text1{
+    font-size: 2rem;
+    margin-bottom: 1.25rem; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.label1 input {
+    width: 200%; 
+    max-width: 20rem; 
+    height: 44px;
+    border: 1px solid #c7cdd8;
+    border-radius: 5px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m3.5 5.5 7.9 6c.4.3.8.3 1.2 0l7.9-6M4 19h16c.6 0 1-.4 1-1V6c0-.6-.4-1-1-1H4a1 1 0 0 0-1 1v12c0 .6.4 1 1 1Z"/></svg>');
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    position: relative;
+    right: -1px;
+  }
+
+  .input2 {
+    width: 200%;
+    max-width: 20rem;
+    height: 43px;
+    border: 1px solid #c7cdd8;
+    border-radius: 5px;
+    padding: 0.5rem;
+    position: relative;
+    right: -1px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14v3m-3-6V7a3 3 0 1 1 6 0v4m-8 0h10c.6 0 1 .4 1 1v7c0 .6-.4 1-1 1H7a1 1 0 0 1-1-1v-7c0-.6.4-1 1-1Z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    
+  }
+  
+  
+  .card1 {
+    background-color: rgba(247, 167, 81, 0.81);
+    padding: 5rem;
+    border: 1px solid #000;
+    width: 20%;
+    position: relative;
+    top: 70px;
+    min-width: 500px;
+    margin: auto;
+    border-radius: 0.5rem;
+    margin-top: 1.25rem;
+}
+
+.buton1 {
+    display: flex;
+    gap: 0.625rem; 
+}
+
+.buton1 button {
+    margin-top: 1.75rem; 
+}
+
+.buton1 .btn {
+    border: 1px solid #17a2b8; 
+    color: #2cd2e8; 
+    position: relative;
+    top: -10px;
+    left:80px;
+    width: 50%;
+    border: 30px;
+
+}
+
+.buton1 .btn-outline {
+    background-color: transparent;
+}
+
+.buton1 .btn-info {
+    background-color: #ef811a;
+    color: #fff;
+    border-color: #ee4040; 
+}
+
+.buton1 .text1{
+    position: relative;
+    top: 40px;
+    right: 80px;
+}
+
+.register-link{
+    position: relative;
+    top: 15px;
+    left: 120px;
+  }
+ 
+  .background-container1 {
+    background-image: url('../photo/save.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 150vh;
+  }
+  .border2 {
+    background-color: #fff;
+    padding: 5rem;
+    width: 20%;
+    position: relative;
+    top: 60px;
+    min-width: 500px;
+    margin: auto;
+    border-radius: 1.5rem;
+    margin-top: 1.25rem;
+    right: -1px;
+    font-family: Arial, sans-serif;
+   
+}
+.text-3xl {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem; 
+    align-items: center;
+    position: relative;
+    top: 10px;
+    height: 100px;
+    
+}
+.natni button {
+    background-color: rgb(84, 249, 145);
+    border: 2px solid teal;
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    align-items: center;
+    left: 70px;
+    border-radius: 1.0rem;
+}
+
+
+.navbar1 {
+    background-color: rgb(78, 216, 247);
+    text-align: center;
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 90px;
+    
+    
+} 
+.baby {
+   width: 6%;
+   position: relative;
+   top: 5px;
+   left: 20px;
+   border-radius: 50%;
+}
+.ul1 {
+    position: relative;
+    top: 5px;
+    right: 10%;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+.list-none li:hover {
+    border-radius: 0.5rem;
+    color: red;
+    background-color: var(--fallback-bc,oklch(var(--bc)/0.2));
+  }
+.product {
+    position: relative;
+    top: 100px;
+    font-size: 24px;
+    right: 600px;
+    color: blue;
+}
+
+  .background-containerG {
+    background-image: url('../photo/backg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; 
+  }
+.logo {
+    width: 3%;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+
+.boy1 {
+    background-image: url('../photo/see.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -61%;
+}
+.boy2 {
+    border-radius: 0.5rem;
+    background-color: var(--fallback-bc,oklch(var(--bc)/0.2));
+    width: 85%;
+    height: 60%;
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+.nc {
+    position: relative;
+    top: 80px;
+    right: 40%;
+    font-weight: bold;
+}
+.logoline {
+    width: 5%;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    border-radius: 50%;
+}
+.logotel {
+    width: 5%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+}
+.logoemail {
+    width: 4%;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    
+}
+
+
+ul{
+    text-align: left;
+    position: relative;
+    top: 3%;
+    font: 1em;
+    
+}
+
+ul li {
+    margin-top: 10px; /* ระยะห่างด้านบน */
+    margin-bottom: 10px; /* ระยะห่างด้านล่าง */
+}
+
